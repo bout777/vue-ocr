@@ -2,7 +2,7 @@
 //createWebHistory:创建history模式的路由
 
 import { createRouter, createWebHistory } from 'vue-router'
-import Login from '../views/Login/indexPage.vue'
+
 import Layout from '../views/Layout/indexPage.vue'
 
 const router = createRouter({
@@ -12,10 +12,6 @@ const router = createRouter({
   {
     path:'/',
     component: Layout
-  },
-  {
-    path:'/Login',
-    component: Login
   }
   ]
 })
